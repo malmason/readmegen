@@ -61,6 +61,8 @@ function renderLicenseSection(license) {
 const generateMarkdown = (data) =>
    `# 📘 ${data.title}
 
+   ![icon](assets/githublogo.png)
+
    ![header](assets/github.png)
 
    ${renderLicenseLink(data.license)}
