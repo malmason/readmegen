@@ -3,9 +3,6 @@ const inquirer = require("inquirer");
 const util = require('util');
 const generateMarkdown = require("./generateMarkdown");
 
-// create writeFile function using promises instead of a callback function
-const writeFileAsync = util.promisify(fs.writeFile);
-
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -41,7 +38,7 @@ const promptUser = () => {
     {
       type: 'list',
       name: 'license',
-      choices: ["MIT","Mozilla","Github Pulls"],
+      choices: ["MIT","Mozilla","Inquirer"],
     },
     {
       type: 'input',
