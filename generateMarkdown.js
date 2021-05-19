@@ -144,8 +144,6 @@ const generateMarkdown = (data) =>
   * [Inquirer](https://www.npmjs.com/package/inquirer)
 
   ---
-
-  ## Your Github Statistics  
   
   ![icon](assets/githublogo.png)
   

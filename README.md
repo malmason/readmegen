@@ -67,7 +67,7 @@
 
   ---
 
-  ## Your Github Statistics  ![icon](assets/githublogo.png)
+  ![icon](assets/githublogo.png)
   
   [![GitHub followers](https://img.shields.io/github/followers/malmason.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/malmason?tab=followers)
 
