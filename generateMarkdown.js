@@ -18,7 +18,20 @@ let licenseText = "";
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+  switch(license){
+    case "MIT":
+      licenseLink = mit;
+      break;
+    case "Mozilla":
+      licenseLink = mozilla;
+      break;
+    case "Inquirer":
+      licenseLink = inqversion;
+      break;
+    default:
+      licenseLink = "";
+  }
+  return licenseLink;
 }
 
 // TODO: Create a function that returns the license link
@@ -34,6 +47,8 @@ function renderLicenseLink(license) {
     case "Inquirer":
       licenseLink = inqversion;
       break;
+    default:
+      licenseLink = "";
   }
   return licenseLink;
 }
@@ -51,6 +66,8 @@ function renderLicenseSection(license) {
     case "Inquirer":
       licenseText = inqText;
       break;
+    default:
+      licenseText = "";
   }
   return licenseText;
 }
@@ -60,8 +77,6 @@ function renderLicenseSection(license) {
 
 const generateMarkdown = (data) =>
    `# 📘 ${data.title}
-
-   ![icon](assets/githublogo.png)
 
    ![header](assets/github.png)
 
@@ -105,20 +120,13 @@ const generateMarkdown = (data) =>
 
   ${data.test}
 
+  [video](https://drive.google.com/file/d/1MwiyamYlytyy1jehzILfGDt7xESXjxU2/view?usp=sharing)
+
   ---
 
 ## 🆔 License 
   
-  ${
-    (license => {
-      if(license=="MIT")
-        return `${mit}`
-      else if(license=="Inquirer") 
-        return `${inqversion}`
-      else
-        return `${mozilla}`
-    }) (data.license)
-  }
+  ${renderLicenseBadge(data.license)}
 
   ${renderLicenseSection(data.license)}
 
@@ -137,7 +145,9 @@ const generateMarkdown = (data) =>
 
   ---
 
-  ## Your Github Statistics
+  ## Your Github Statistics  
+  
+  ![icon](assets/githublogo.png)
   
   ${follow}${data.github}.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/${data.github}?tab=followers)
 
