@@ -84,9 +84,11 @@ const generateMarkdown = (data) =>
 
 ## Description 
 
+  \`\`\`
+
   ${data.description}
 
-  ---
+  \`\`\`
 
   # 📋 Table of Contents 
   1. [Installation Instructions](#📄-installation-instructions)
@@ -96,44 +98,31 @@ const generateMarkdown = (data) =>
   5. [License](#🆔-license)
   6. [Questions](#❓-questions)
 
-  ---
-
 ## 📄 Installation Instructions 
  
   * ${data.instructions}
-
-  ---
 
 ## ™️ Usage Information
  
   ${data.usage}
 
-  ---
-
 ## 📝 Contribution Guidelines 
   
   ${data.contribute}
-  
-  ---
 
 ## 🉑 Tests 
 
   ${data.test}
 
-  [video](https://drive.google.com/file/d/1MwiyamYlytyy1jehzILfGDt7xESXjxU2/view?usp=sharing)
-
-  ---
+  [Video Demonstration](https://drive.google.com/file/d/1MwiyamYlytyy1jehzILfGDt7xESXjxU2/view?usp=sharing)
 
 ## 🆔 License 
   
   ${renderLicenseBadge(data.license)}
 
   ${renderLicenseSection(data.license)}
-
-  ---
   
 ## ❓ Questions 
-
 
   If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
 
