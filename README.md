@@ -1,67 +1,65 @@
 # 📘 README File Generator
 
-   ![header](assets/github.png)
+![header](assets/github.png)
 
-   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
-  
-## Description 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
 
-  This is a project that will allow you to create a professional readme file from the command line. You will be prompted with questions about your project. Once all questions have been answerd, a readme file will be generated.
+## Description
 
-  ## 📋 Table of Contents 
-  1. [Installation Instructions](#📄-installation-instructions)
-  2. [Usage Information](#™️-usage-information)
-  3. [Contribution Guidelines](#📝-contribution-guidelines)
-  4. [Tests](#🉑-tests)
-  5. [License](#🆔-license)
-  6. [Questions](#❓-questions)
+This is a project that will allow you to create a professional readme file from the command line. You will be prompted with questions about your project. Once all questions have been answerd, a readme file will be generated.
 
-## 📄 Installation Instructions 
- 
-  * You will need the latest version of Node.js along with the inquirer package. You can install this package using npm install inquirer.
+## 📋 Table of Contents
+
+1. [Installation Instructions](#📄-installation-instructions)
+2. [Usage Information](#™️-usage-information)
+3. [Contribution Guidelines](#📝-contribution-guidelines)
+4. [Tests](#🉑-tests)
+5. [License](#🆔-license)
+6. [Questions](#❓-questions)
+
+## 📄 Installation Instructions
+
+- You will need the latest version of Node.js along with the inquirer package. You can install this package using npm install inquirer.
 
 ## ™️ Usage Information
- 
-  You're free to use this in all of your projects to save time with creating your readme files. Please inclued a link to this repository to credit the author.
 
-## 📝 Contribution Guidelines 
-  
-   ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+You're free to use this in all of your projects to save time with creating your readme files. Please inclued a link to this repository to credit the author.
 
+## 📝 Contribution Guidelines
 
-  This is an open-source application and all contributions are welcome. You can find my contact information under the Questions section of this readme file. 
+![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🉑 Tests 
+This is an open-source application and all contributions are welcome. You can find my contact information under the Questions section of this readme file.
 
-  To test this application, open a command prompt and run node index.js. The video link below demonstrates this process.
+## 🉑 Tests
 
-  [Video Demonstration](https://drive.google.com/file/d/1MwiyamYlytyy1jehzILfGDt7xESXjxU2/view?usp=sharing)
+To test this application, open a command prompt and run node index.js. The video link below demonstrates this process.
 
-## 🆔 License 
-  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[Video Demonstration](https://drive.google.com/file/d/1MwiyamYlytyy1jehzILfGDt7xESXjxU2/view?usp=sharing)
 
-  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+## 🆔 License
 
-  [Inquirer](https://www.npmjs.com/package/inquirer)
-  
-## ❓ Questions 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-  If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
+[Inquirer](https://www.npmjs.com/package/inquirer)
 
-  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malmason)
-  [![E-Mail](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malmason66@gmail.com)
-  
-  ---
-  
-  ![icon](assets/githublogo.png)
-  
-  [![GitHub followers](https://img.shields.io/github/followers/malmason.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/malmason?tab=followers)
+## ❓ Questions
 
-  ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=malmason&show_icons=true)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/malmason)
 
-  ![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=malmason)
-  
-  
+If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
+
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malmason)
+[![E-Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malmason66@gmail.com)
+
+---
+
+![icon](assets/githublogo.png)
+
+[![GitHub followers](https://img.shields.io/github/followers/malmason.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/malmason?tab=followers)
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=malmason&show_icons=true)
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=malmason)
