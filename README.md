@@ -8,7 +8,7 @@
 
   This is a project that will allow you to create a professional readme file from the command line. You will be prompted with questions about your project. Once all questions have been answerd, a readme file will be generated.
 
-  # 📋 Table of Contents 
+  ## 📋 Table of Contents 
   1. [Installation Instructions](#📄-installation-instructions)
   2. [Usage Information](#™️-usage-information)
   3. [Contribution Guidelines](#📝-contribution-guidelines)
