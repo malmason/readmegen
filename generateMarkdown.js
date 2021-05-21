@@ -84,13 +84,9 @@ const generateMarkdown = (data) =>
 
 ## Description 
 
-  \`\`\`
-
   ${data.description}
 
-  \`\`\`
-
-  # 📋 Table of Contents 
+## 📋 Table of Contents 
   1. [Installation Instructions](#📄-installation-instructions)
   2. [Usage Information](#™️-usage-information)
   3. [Contribution Guidelines](#📝-contribution-guidelines)
@@ -123,6 +119,8 @@ const generateMarkdown = (data) =>
   ${renderLicenseSection(data.license)}
   
 ## ❓ Questions 
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
   If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
 

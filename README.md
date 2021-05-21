@@ -2,15 +2,11 @@
 
    ![header](assets/github.png)
 
-   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
+   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
+   
 ## Description 
 
-  ```
-
   This is a project that will allow you to create a professional readme file from the command line. You will be prompted with questions about your project. Once all questions have been answerd, a readme file will be generated.
-
-  ```
 
   # 📋 Table of Contents 
   1. [Installation Instructions](#📄-installation-instructions)
@@ -45,6 +41,8 @@
   A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
   
 ## ❓ Questions 
+
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
   If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
 
