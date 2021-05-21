@@ -2,8 +2,8 @@
 
    ![header](assets/github.png)
 
-   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
-   
+   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
+  
 ## Description 
 
   This is a project that will allow you to create a professional readme file from the command line. You will be prompted with questions about your project. Once all questions have been answerd, a readme file will be generated.
@@ -26,6 +26,9 @@
 
 ## 📝 Contribution Guidelines 
   
+   ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
   This is an open-source application and all contributions are welcome. You can find my contact information under the Questions section of this readme file. 
 
 ## 🉑 Tests 
@@ -39,6 +42,8 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+  [Inquirer](https://www.npmjs.com/package/inquirer)
   
 ## ❓ Questions 
 
@@ -46,12 +51,9 @@
 
   If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
 
-  * [Github](https://github.com/malmason)
-
-  * [E-Mail](mailto:malmason66@gmail.com) 📧
-
-  * [Inquirer](https://www.npmjs.com/package/inquirer)
-
+  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malmason)
+  [![E-Mail](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:malmason66@gmail.com)
+  
   ---
   
   ![icon](assets/githublogo.png)

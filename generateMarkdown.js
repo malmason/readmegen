@@ -80,7 +80,7 @@ const generateMarkdown = (data) =>
 
    ![header](assets/github.png)
 
-   ${renderLicenseLink(data.license)}
+   ${renderLicenseLink(data.license)} [![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm)
 
 ## Description 
 
@@ -106,6 +106,8 @@ const generateMarkdown = (data) =>
   
   ${data.contribute}
 
+  ![javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ## 🉑 Tests 
 
   ${data.test}
@@ -117,18 +119,17 @@ const generateMarkdown = (data) =>
   ${renderLicenseBadge(data.license)}
 
   ${renderLicenseSection(data.license)}
+
+  [Inquirer](https://www.npmjs.com/package/inquirer)
   
 ## ❓ Questions 
 
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/${data.github})
 
   If you have questions about this project, you can contact me via e-mail below or you can follow on my Github profile using that link.
 
-  * [Github](https://github.com/${data.github})
-
-  * [E-Mail](mailto:${data.email}) 📧
-
-  * [Inquirer](https://www.npmjs.com/package/inquirer)
+  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${data.github})
+  [![E-Mail](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${data.email})
 
   ---
   
